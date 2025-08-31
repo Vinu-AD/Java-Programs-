@@ -1,3 +1,5 @@
+package problemsolving;
+
 // Program to use switch case
 
 import java.util.Scanner;

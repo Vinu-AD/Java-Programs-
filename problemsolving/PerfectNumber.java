@@ -1,4 +1,6 @@
-// Program to check whether the given number is a PerfectNumber of not
+package problemsolving;
+
+// Program to check whether the given number is a Perfect number of not
 
 import java.util.Scanner;
 

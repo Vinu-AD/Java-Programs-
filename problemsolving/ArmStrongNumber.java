@@ -1,3 +1,4 @@
+package problemsolving;
 // Program to check the whether the number is Armstrong Number or not
 
 import java.util.Scanner;
