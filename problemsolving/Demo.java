@@ -1,4 +1,4 @@
-package commontask;
+package problemsolving;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

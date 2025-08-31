@@ -1,4 +1,4 @@
-package commontask;
+package problemsolving;
 
 class ArrayFill extends Thread {
     static int[] ar = new int[25];

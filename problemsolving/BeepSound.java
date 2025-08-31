@@ -1,5 +1,4 @@
-package commontask;
-import java.awt.Toolkit;
+package problemsolving;
 
 public class BeepSound {
     public static void main(String[] args) {
