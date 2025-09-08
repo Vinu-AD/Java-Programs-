@@ -1,4 +1,4 @@
-package collection.map;
+package commontask;
 
 import java.util.HashSet;
 import java.util.Objects;
@@ -47,18 +47,15 @@ class Emp {
     }
 }
 
-public class DuplicateRemove {
+public class RemoveDuplicateEmp {
     public static void main(String[] args) {
         HashSet<Emp> employees = new HashSet<>();
         employees.add(new Emp(101, "Name1", "SD1", 10000.0, 2));
-        employees.add(new Emp(101, "Name1", "SD1", 10000.0, 2));
-        employees.add(new Emp(102, "Name2", "SD2", 20000.0, 3));
-        employees.add(new Emp(102, "Name2", "SD2", 20000.0, 3));
         employees.add(new Emp(102, "Name2", "SD2", 20000.0, 3));
         employees.add(new Emp(103, "Name3", "SD3", 30000.0, 4));
         employees.add(new Emp(104, "Name4", "FD", 40000.0, 2));
         employees.add(new Emp(105, "Name5", "BD", 50000.0, 3));
-        employees.add(new Emp(105, "Name5", "BD", 50000.0, 3));
+        employees.add(new Emp(104, "Name4", "FD", 40000.0, 2));
         employees.add(new Emp(105, "Name5", "BD", 50000.0, 3));
 
         System.out.println("Employee Details");
