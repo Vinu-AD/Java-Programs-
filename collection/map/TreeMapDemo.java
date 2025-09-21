@@ -8,11 +8,16 @@ public class TreeMapDemo {
 
         TreeMap<String, Integer> cities = new TreeMap<>();
         cities.put("Kallai", 606202);
+        cities.put("Kallai", 606203);
         cities.put("Salem", 606392);
+        cities.put("Salem", 606393);
         cities.put("Erode", 239582);
         cities.put("Chennai", 600001);
+        cities.put("Chennai", 600002);
         cities.put("Bangalore", 493820);
-
+        cities.put("Kovai", null);
+        cities.put("Hyderabad", null);
+//        cities.put(null, null); null key is not allowed (NPE)
         System.out.println(cities);
         System.out.println();
 

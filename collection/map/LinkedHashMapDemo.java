@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class LinkedHashMapDemo {
     public static void main(String[] args) {
-        LinkedHashMap<Integer, String> numbers = new LinkedHashMap<>();
+        LinkedHashMap<Integer, String> numbers = new LinkedHashMap<>(16, 0.75f, true);
         numbers.put(2, "Two");
         numbers.put(3, "Three");
         numbers.put(4, "Four");
@@ -59,6 +59,12 @@ public class LinkedHashMapDemo {
 //        System.out.println(numbers.sequencedEntrySet());
 
 //        System.out.println(LinkedHashMap.newLinkedHashMap(3));
+
+
+        numbers.put(6, "Six");
+        numbers.get(3);
+        numbers.getOrDefault(5, "");
+        numbers.replace(4, "FOUR");
 
         System.out.println(numbers);
     }

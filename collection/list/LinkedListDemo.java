@@ -1,6 +1,8 @@
 package collection.list;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class LinkedListDemo {
     public static void main(String[] args) {
@@ -97,13 +99,19 @@ public class LinkedListDemo {
 
 
         // subList
-/*        ll.add("Vinu");
 //        ArrayList<Integer> subl = new ArrayList<Integer> (ll.subList(3, ll.size()));
         ArrayList<Integer> subl = new ArrayList<Integer> (ll);
         System.out.println(subl);
 
         List subList = ll.subList(3, ll.size());
-        System.out.println(subList);*/
+        subList.set(2, 50);
+        System.out.println(subList);
+
+        LinkedList newList = ll;
+        newList.add(3);
+        System.out.println(newList);
+
+        System.out.println(ll);
 
 /*        ArrayList<String> list = new ArrayList<>();
         list.add("A");
@@ -128,6 +136,20 @@ public class LinkedListDemo {
         Object[] num =  ll.toArray();
         System.out.println(Arrays.toString(num));
 */
+
+/*
+        LinkedList<String> sub = new LinkedList<>();
+        sub.add("A");
+        sub.add("B");
+        sub.add("C");
+        sub.add("D");
+        sub.add("E");
+        System.out.println(sub);
+
+        ArrayList<String> list = new ArrayList<>(sub);
+        System.out.println(list);
+*/
+
 
     }
 }
