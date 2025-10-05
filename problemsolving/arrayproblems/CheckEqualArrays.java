@@ -1,4 +1,4 @@
-package problemsolving;
+package problemsolving.arrayproblems;
 
 import java.util.HashMap;
 

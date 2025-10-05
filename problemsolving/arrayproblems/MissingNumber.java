@@ -1,4 +1,4 @@
-package problemsolving;
+package problemsolving.arrayproblems;
 
 public class MissingNumber {
     static int missingNum(int arr[]) {

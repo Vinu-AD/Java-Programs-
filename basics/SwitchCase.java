@@ -1,4 +1,4 @@
-package problemsolving;
+package basics;
 
 // Program to use switch case
 

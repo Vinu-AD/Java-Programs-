@@ -1,4 +1,4 @@
-package problemsolving;
+package problemsolving.numberproblems;
 import java.util.Scanner;
 
 public class FibonacciSeries {

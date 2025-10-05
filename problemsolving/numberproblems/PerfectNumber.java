@@ -1,4 +1,4 @@
-package problemsolving;
+package problemsolving.numberproblems;
 
 // Program to check whether the given number is a Perfect number of not
 

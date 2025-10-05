@@ -1,6 +1,5 @@
-package problemsolving;
+package problemsolving.arrayproblems;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class RotateArray {
